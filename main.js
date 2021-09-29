@@ -17,12 +17,14 @@ console.log(power(2, 0));
 console.log(power(2, 2));
 console.log(power(2, 4));
 
+
 /* 02-----------------------productOfArray---------------------------------------------------------------------
 Write a function called 'productOfArray' which takes in an array of numbers and 
 returns the product of them all.
 */
 // productOfArray([1,2,3]) // 6
 // productOfArray([1,2,3,10]) // 60
+
 
 function productOfArray(num) {
     let total = 1;
@@ -49,6 +51,7 @@ a new string in reverse.
 */
 // reverse('awesome') // 'emosewa'
 // reverse('rithmschool') // 'loohcsmhtir'
+
 
 function reverse(str) {
     return str.split("").reverse().join("");
